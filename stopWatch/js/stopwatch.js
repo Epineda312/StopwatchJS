@@ -31,10 +31,10 @@ function Stopwatch(elem) {
 			minutes = '0' + minutes;
 		}
 		if (seconds.length < 2){
-			seconds = '0' + minutes
+			seconds = '0' + seconds;
 		}
 		while(milliseconds.length < 3){
-			milliseconds = '0' + milliseconds
+			milliseconds = '0' + milliseconds;
 		}
 		return minutes + ' : ' + seconds + ' . ' + milliseconds;
 	};
